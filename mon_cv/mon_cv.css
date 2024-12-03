@@ -1,0 +1,21 @@
+body {
+    background-color: #E0FBFC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #5c6b73;
+    margin: 8%;
+    border: 1px solid #bee6e7;
+    
+}
+
+h1,hr, h2, p{
+    margin-top: 3%;  
+}
+
+footer{
+    margin-top: 8%;
+}
+
+input{
+  color: #5c6b73;  
+}
