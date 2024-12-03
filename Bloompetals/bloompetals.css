@@ -1,0 +1,277 @@
+body {
+    background-color: #a188a688;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0d324dc0;
+    margin: 8%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a188a6;
+    padding: 3%;
+    border-radius: 1cm;
+}
+
+.headernav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+
+    font-size: larger;
+    color: #0d324dc0;
+    text-align: justify;
+}
+
+.div1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/*index.htlm*/
+
+#cherche {
+    border-radius: 0.5cm;
+    color: #a188a6;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.index {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.index img {
+    border-radius: 1cm;
+}
+
+footer {
+
+    background-color: #a188a6;
+    padding: 3%;
+    border-radius: 1cm;
+}
+
+/*entreprise.html*/
+.équipe {
+    display: flex;
+    justify-content: baseline;
+    text-align: center;
+}
+
+.équipe img {
+    border-radius: 1cm;
+}
+
+/*réalisations.html*/
+
+.réalisations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.réalisations img {
+    border-radius: 1cm;
+    gap: 10%;
+}
+
+/*contact.html*/
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    padding: 5%;
+}
+
+.div1contact {
+    padding-top: 5%;
+    background-color: #9da2ab8f;
+    border-radius: 1cm;
+}
+
+.div1contact img {
+    border-radius: 1cm;
+}
+
+.form {
+    padding: 3%;
+    background-color: #9da2ab8f;
+    border-radius: 1cm;
+}
+
+.contactfleur {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+
+/*RWD Media Queries*/
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 6%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #a188a6;
+        padding: 3%;
+        border-radius: 1cm;
+    }
+
+    .headernav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+
+        font-size: large;
+    }
+
+    .div1 {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    /*index.htlm*/
+
+    #cherche {
+        border-radius: 0.5cm;
+        color: #a188a6;
+    }
+
+    h1,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    table {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .index {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .index img {
+        border-radius: 1cm;
+    }
+
+    footer {
+        background-color: #a188a6;
+        padding: 3%;
+        border-radius: 1cm;
+    }
+
+    /*entreprise.html*/
+    .équipe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        text-align: center;
+    }
+
+    .équipe img {
+        border-radius: 1cm;
+        width: fit-content;
+    }
+
+    /*réalisations.html*/
+
+    .réalisations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 2%;
+    }
+
+    .réalisations img {
+        border-radius: 1cm;
+        gap: 10%;
+    }
+
+    /*contact.html*/
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1%;
+        padding: 5%;
+    }
+
+    .div1contact {
+
+        width: fit-content;
+    }
+
+    .div1contact img {
+        border-radius: 1cm;
+        width: 200px;
+    }
+
+    .form {
+
+        width: fit-content;
+        font-size: smaller;
+    }
+
+    .contactfleur img {
+
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+
+    body {
+        font-size: xx-large;
+    }
+
+    nav {
+        font-size: xx-large;
+    }
+
+    .headernav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+
+        font-size: xx-large;
+
+    }
+
+}
